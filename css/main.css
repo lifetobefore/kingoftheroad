@@ -17,7 +17,7 @@ body {
 
 .home-logo {
     position: absolute;
-    top: calc(130px + (95 * ((100vw - 320px) / 55)));
+    top: calc(130px + (110 * ((100vw - 320px) / 105)));
     left: 10%;
     transform: translate(5%, -50%);
 }
@@ -28,12 +28,12 @@ body {
 }
 
 .home-logo h1:first-child {
-    font-size: calc(44px + (10 * ((100vw - 320px) / 55)));
+    font-size: calc(44px + (10 * ((100vw - 320px) / 105)));
 }
 
 .home-logo h1:nth-child(2) {
     margin-top: -20px;
-    font-size: calc(54px + (11 * ((100vw - 320px) / 55)));
+    font-size: calc(54px + (11 * ((100vw - 320px) / 105)));
 }
 
 #homeCar {
@@ -50,7 +50,7 @@ body {
 }
 
 .home-about p {
-    font-size: calc(12px + (10 * ((100vw - 320px) / 55)));
+    font-size: calc(12px + (10 * ((100vw - 320px) / 105)));
 }
 
 .background-line {
