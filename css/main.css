@@ -17,7 +17,7 @@ body {
 
 .home-logo {
     position: absolute;
-    top: calc(125px + (95 * ((100vh - 568px) / 224)));
+    top: calc(125px + (95 * ((100vh - 568px) / 328)));
     left: 10%;
     transform: translate(5%, -50%);
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .home-about p {
-    font-size: calc(12px + (10 * ((100vw - 320px) / 105)));
+    font-size: calc(10px + (10 * ((100vw - 320px) / 105)));
 }
 
 .background-line {
@@ -60,6 +60,6 @@ body {
     transform: translate(-50%, -50%);
     width: 60vw;
     height: 100vh;
-    border: 2px solid rgb(250, 250, 250, 0.2);
+    border: 1px solid rgb(255, 255, 255, 0.2);
     z-index: -1;
 }
