@@ -1,0 +1,54 @@
+/*toggle hamburger*/
+
+.toggle {
+    display: block;
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 16px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hamburger:before,
+.hamburger:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    left: 0;
+    background: white;
+    transition: 0.5s;
+}
+
+.hamburger:before {
+    top: 6px;
+}
+
+.hamburger:after {
+    top: -6px;
+}
+
+.toggle.active .hamburger {
+    background: rgba(0, 0, 0, 0);
+}
+
+.toggle.active .hamburger:before {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.toggle.active .hamburger:after {
+    top: 0;
+    transform: rotate(45deg);
+}
