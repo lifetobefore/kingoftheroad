@@ -17,7 +17,7 @@ body {
 
 .home-logo {
     position: absolute;
-    top: calc(130px + (110 * ((100vw - 320px) / 110)));
+    top: calc(125px + (95 * ((100vh - 568px) / 224)));
     left: 10%;
     transform: translate(5%, -50%);
 }
